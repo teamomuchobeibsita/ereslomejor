@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Me perdonas mibida</title>
+    <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/517/PNG/512/love_icon-icons.com_51110.png">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.p1').hover(function(){
+                arriba = Math.random()*(400-1) +1;
+                abajo = Math.random() * (609-1) +1;
+              $(this).css('top', arriba);
+              $(this).css('left', abajo);
+            });
+        });
+    function dijoSi(){
+        document.getElementById('si').style.display = 'block';
+    }
+    </script>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="com">
+            <h1>Me perdonas por todas las faltas de ortografia de esta web y si en algun momento te hago sentir mal  </h1>
+        </div>
+        <div class="opciones">
+            <p class="p1">No</p>
+            <p onclick="dijoSi()" class="p2">Si</p>
+            <div id="si">
+
+                <center><h2>TEAMOOOO MUCHOOOO BEIBSITA</h2></center>
+                <center><h2>Prometo mejorarla en unos años bb</h2></center>
+                <center><h2>Pero lo hice de corazon para mi corazon-zon</h2></center>
+            </div>
+        </div>
+    </div>
+    
+        <header class="header">
+            <div class="container">
+            <div class="btn-menu">
+                <label for="btn-menu">☰</label>
+            </div>
+                <div class="logo">
+                      <h1></h1>
+                      <h2></h2>
+                </div>
+                <!--<img src="https://pbs.twimg.com/profile_images/1706121252673306624/2pTQiGse_400x400.jpg" width="90" height="90" > -->
+                <!--nav class="menu">
+                    <a href="#">Inicio</a>
+                    
+                </nav-->
+            </div>
+        </header>
+        <div class="capa"></div>
+    <!--	--------------->
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <a href="nuestrahis.html">Nuestra Historia</a>
+                <a href="siendo.html">Siendo Novis</a>
+                <a href="novis.html">Primer Año</a>
+                <a href="perdon.html">¿Me perdonas?</a>
+                 
+            </nav>
+            <label for="btn-menu">✖️</label>
+        </div>
+    </div>
+    <div>
+        
+    </body>
+</body>
+</html>
